@@ -1,7 +1,7 @@
 .cabecalho {
     align-items: center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     background-color: var(--fundo);
     display: flex; 
     flex-direction: row;
