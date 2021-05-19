@@ -9,3 +9,9 @@ body {
     background-color: #E5E5E5;
     
 }
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,100 @@
+.menu-lateral_projeto {
+    background-color: var(--fundo);
+    display: flex;
+    flex-direction: column;
+}
+
+.seu-projeto {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.seu-projeto_titulo {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin: calc(49.95px - 32px) 0px 16px 32px;
+}
+
+.seu-projeto_input {
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.16);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 16px 32px;
+    padding: 16px;
+    position: static;
+    height: calc(56px - 32px);
+    width: calc(272px - 32px);
+}
+
+.seu-projeto_textarea {
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.16);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 40px 32px;
+    padding: 16px;
+    position: static;
+    height: calc(80px - 32px);
+    width: calc(272px - 32px);
+}
+
+.personalizacao {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 32px 32px;
+}
+
+.personalizacao_titulo {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.4em;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.personalizacao_linguagem {
+    align-self: stretch;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.16);
+    border: none;
+    flex: none;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 24px 0px;
+    padding: 16px;
+    position: static;
+    height: 56px;
+    width: 272px;
+}
+
+.personalizacao_cor {
+    height: 56px;
+    width: 272px;
+    border-radius: 4px;
+    background: var(--fundo);
+    margin-bottom: 40px;
+}
+
+.personalizacao_botao-salvar {
+    height: 56px;
+    width: 272px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5081FB;
+    font-size: 16px;
+    font-weight: 400;
+}
