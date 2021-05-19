@@ -2,6 +2,7 @@
     background-color: var(--fundo);
     display: flex;
     flex-direction: column;
+    margin-right: 32px;
 }
 
 .seu-projeto {
