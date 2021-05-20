@@ -1,0 +1,62 @@
+.back-do-editor {
+    background-color: #6BD1FF;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    padding: 32px;
+}
+
+.cor-do-editor {
+    background-color: #141414;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor_circulos {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+}
+
+.circulo_vermelho {
+    background-color:#FF5F56;
+    border-radius: 100%;
+    height: 12px;
+    width: 12px;
+    margin-right: 8px;
+}
+
+.circulo_amarelo {
+    background-color: #FFBD2E;
+    border-radius: 100%;
+    height: 12px;
+    width: 12px;
+    margin-right: 8px;
+}
+
+.circulo_verde {
+    background-color:#27C93F;
+    border-radius: 100%;
+    height: 12px;
+    width: 12px;
+}
+
+.text_codigo {
+    background-color: #141414;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    height: 260px;
+    width: 606px;
+}
+
+.botao_visualizar {
+    background-color: rgba(80, 129, 251, 0.08);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    height: 56px;
+    width: 670px;
+}
