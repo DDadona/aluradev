@@ -11,8 +11,15 @@ body {
 }
 
 .conteudo {
+    background-color: var(--fundo);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.rodape {
     background-color: var(--fundo);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    color: white;
 }

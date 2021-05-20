@@ -1,8 +1,8 @@
 .cabecalho {
     align-items: center;
+    background-color: var(--fundo);
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    background-color: var(--fundo);
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
@@ -26,15 +26,16 @@
     font-size: 16px;
     font-weight: 400;
     height: calc(56px - 28px);
-    width: calc(642px - 28px);
+    width: calc(670px - 28px);
+    margin: 32px 0 40px 0;
     padding: 14px;
-    margin: 32px 0 32px 0;
 }
 
 .menu-perfil {
     align-items: center;
-    display: flex;
     color: white;
+    display: flex;
+    margin-left: 90px;
 }
 
 .menu-perfil_nome {
