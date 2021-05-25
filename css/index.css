@@ -23,3 +23,9 @@ body {
     border-bottom-left-radius: 40px;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .conteudo {
+        flex-direction: column;
+    }
+}

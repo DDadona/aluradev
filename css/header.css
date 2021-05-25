@@ -13,6 +13,7 @@
     height: 34.05px;
     width: 145px;
     margin-left: 32px;
+    margin-right: 10vw;
 }
 
 .barra-pesquisa {
@@ -26,7 +27,7 @@
     font-size: 16px;
     font-weight: 400;
     height: calc(56px - 28px);
-    width: calc(670px - 28px);
+    width: calc(51vw - 40px);
     margin: 32px 0 40px 0;
     padding: 14px;
 }
@@ -35,7 +36,7 @@
     align-items: center;
     color: white;
     display: flex;
-    margin-left: 90px;
+    margin-left: 15vw;
 }
 
 .menu-perfil_nome {
@@ -43,5 +44,25 @@
     font-size: 16px;
     font-weight: 400;
     margin-left: 8px;
-    margin-right: 44px;
+    margin-right: 3vw;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-perfil {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        display: inline-block;
+        margin-right: 32px;
+        margin-left: 3vw;
+    }
+
+    .logo {
+        margin-right: 40px;
+    }
+
+    .barra-pesquisa {
+        width: 50vw;
+    }
 }
