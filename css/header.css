@@ -47,13 +47,17 @@
     margin-right: 3vw;
 }
 
+.lupa-pesquisa {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .menu-perfil {
         display: none;
     }
 
     .menu-hamburguer {
-        display: inline-block;
+        display: flex;
         margin-right: 32px;
         margin-left: 3vw;
     }
@@ -64,5 +68,30 @@
 
     .barra-pesquisa {
         width: 50vw;
+    }
+
+    .lupa-pesquisa {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo {
+        margin-top: 27px;
+        margin-bottom: 51px;
+    }
+    .barra-pesquisa {
+        display: none;
+    }
+
+    .lupa-pesquisa {
+        display: flex;
+        margin-top: 27px;
+        margin-bottom: 51px;
+    }
+    
+    .menu-hamburguer {
+        margin-top: 27px;
+        margin-bottom: 51px;
     }
 }

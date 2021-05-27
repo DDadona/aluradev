@@ -139,3 +139,53 @@
          margin-left: 32px;
      }
 }
+
+@media screen and (max-width: 375px) {
+    .menu-lateral_projeto {
+        margin-top: 40px;
+        
+    }
+
+    .seu-projeto_titulo {
+        margin-left: 16px;
+    }
+
+    .personalizacao_titulo {
+        margin-left: 16px;
+    }
+
+    .seu-projeto_input {
+        width: 82vw;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .seu-projeto_textarea {
+        width: 82vw;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .personalizacao {
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    
+    .personalizacao_linguagem {
+        width: 90vw;
+        margin-left: 16px;
+    }
+
+    .personalizacao_cor {
+        width: 89vw;       
+        margin-left: 16px;
+        margin-bottom: 40px;
+    }
+
+     .personalizacao_botao-salvar {
+         width: 90vw;
+         margin-left: 16px;
+     }
+   
+}

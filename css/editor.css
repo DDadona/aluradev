@@ -84,3 +84,18 @@
     }
 
 }
+
+@media screen and (max-width: 375px) {
+    .back-do-editor {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    .text_codigo {
+        width: 64.5vw;
+    }
+
+    .botao_visualizar {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
