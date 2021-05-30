@@ -46,6 +46,7 @@
     border: none;
     border-radius: 8px;
     color: white;
+    font-family: 'Roboto Mono', monospace;
     height: 260px;
     width: 45vw;
 }
