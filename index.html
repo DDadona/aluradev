@@ -35,10 +35,10 @@
             <h2 class="menu_titulo">Menu</h2>
             <ul class="menu_lista">
                 <li>
-                    <a href="#" class="menu_lista__item"><img src="img/Icon_editor_codigo.png" alt="Ícone do Editor de códigos" class="menu_lista__icone"> Editor de código</a>
+                    <a href="index.html" class="menu_lista__item"><img src="img/Icon_editor_codigo.png" alt="Ícone do Editor de códigos" class="menu_lista__icone"> Editor de código</a>
                 </li>
                 <li>
-                    <a href="#" class="menu_lista__item"><img src="img/Icon_comunidade.png" alt="Ícone da Comunidade" class="menu_lista__icone"> Comunidade</a>
+                    <a href="comunidade.html" class="menu_lista__item"><img src="img/Icon_comunidade.png" alt="Ícone da Comunidade" class="menu_lista__icone"> Comunidade</a>
                 </li>
             </ul>
         </nav>
@@ -50,7 +50,7 @@
                         "></div>
                     </div>
                     
-                    <textarea class="text_codigo" id="text_codigo"></textarea>
+                    <code class="text_codigo hljs" contenteditable="true"></code>
                 </div>
             </div>
             <button class="botao_visualizar">Visualizar com highlight</button>
@@ -77,4 +77,5 @@
         .
     </footer>
 </body>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.0/build/highlight.min.js"></script>
 </html>
