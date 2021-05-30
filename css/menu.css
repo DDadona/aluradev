@@ -28,6 +28,11 @@
     width: 15vw;
 }
 
+.menu_lista__item:hover {
+    background-color: #2D415B;
+    border-radius: 8px;
+}
+
 .menu_lista__icone {
     margin: 8px 16px 8px 0px;
 }

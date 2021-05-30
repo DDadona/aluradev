@@ -59,12 +59,17 @@
     font-weight: 400;
     height: 56px;
     width: 50vw;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .botao_visualizar:hover {
     transform: scale(1.03);
-    background-color: rgba(80, 129, 251, 0.20);;
+    cursor: pointer;
+}
+
+.botao_visualizar:active {
+    background-color: var(--input-texto);
+    transform: scale(0.9);
 }
 
 @media screen and (max-width: 768px) {

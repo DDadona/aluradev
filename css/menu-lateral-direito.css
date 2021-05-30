@@ -100,6 +100,18 @@
     width: 20vw;
     margin-left: 40px;
     margin-bottom: 40px;
+    transition: 0.3s;
+}
+
+.personalizacao_botao-salvar:hover {
+    transform: scale(1.03);
+    background-color: #5081FB;
+    cursor: pointer;
+}
+
+.personalizacao_botao-salvar:active {
+    transform: scale(0.9);
+    background-color: #91b0ff;
 }
 
 @media screen and (max-width: 768px) {
