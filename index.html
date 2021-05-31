@@ -46,13 +46,13 @@
         </nav>
         <section>
             <div class="back-do-editor" data-back>
-                <div class="cor-do-editor">
+                <div class="cor-do-editor" data-editor>
                     <div class="editor_circulos">
                         <div class="circulo_vermelho"></div> <div class="circulo_amarelo"></div> <div class="circulo_verde
                         "></div>
                     </div>
                     
-                    <code class="text_codigo hljs" contenteditable="true"></code>
+                    <code class="text_codigo hljs" contenteditable="true"data-codigo></code>
                 </div>
             </div>
             <button class="botao_visualizar" data-visualizar>Visualizar com highlight</button>
@@ -60,12 +60,12 @@
         <section class="menu-lateral_projeto">
             <div class="seu-projeto">
                 <h2 class="seu-projeto_titulo">Seu projeto</h2>
-                <input type="text" class="seu-projeto_input" placeholder="Nome do seu projeto" data-linguaguem>
+                <input type="text" class="seu-projeto_input" placeholder="Nome do seu projeto">
                 <textarea class="seu-projeto_textarea" cols="30" rows="10" placeholder="Descrição do seu projeto"></textarea>
             </div>
             <h2 class="personalizacao_titulo">Personalização</h2>
             <div class="personalizacao">
-                <select class="personalizacao_linguagem">
+                <select class="personalizacao_linguagem" data-linguaguem>
                     <option value="JavaScript">JavaScript</option>
                     <option value="HTML">HTML</option>
                     <option value="CSS">CSS</option>
@@ -80,4 +80,5 @@
     </footer>
 </body>
 <script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
 </html>
