@@ -45,7 +45,7 @@
             </ul>
         </nav>
         <section>
-            <div class="back-do-editor">
+            <div class="back-do-editor" data-back>
                 <div class="cor-do-editor">
                     <div class="editor_circulos">
                         <div class="circulo_vermelho"></div> <div class="circulo_amarelo"></div> <div class="circulo_verde
@@ -55,12 +55,12 @@
                     <code class="text_codigo hljs" contenteditable="true"></code>
                 </div>
             </div>
-            <button class="botao_visualizar">Visualizar com highlight</button>
+            <button class="botao_visualizar" data-visualizar>Visualizar com highlight</button>
         </section>
         <section class="menu-lateral_projeto">
             <div class="seu-projeto">
                 <h2 class="seu-projeto_titulo">Seu projeto</h2>
-                <input type="text" class="seu-projeto_input" placeholder="Nome do seu projeto">
+                <input type="text" class="seu-projeto_input" placeholder="Nome do seu projeto" data-linguaguem>
                 <textarea class="seu-projeto_textarea" cols="30" rows="10" placeholder="Descrição do seu projeto"></textarea>
             </div>
             <h2 class="personalizacao_titulo">Personalização</h2>
@@ -70,7 +70,7 @@
                     <option value="HTML">HTML</option>
                     <option value="CSS">CSS</option>
                 </select>
-                <input type="color" value="#6Bd1FF" class="personalizacao_cor">
+                <input type="color" value="#6Bd1FF" class="personalizacao_cor" data-cor>
             </div>
             <button class="personalizacao_botao-salvar">Salvar projeto</button>
         </section>
@@ -79,5 +79,5 @@
         .
     </footer>
 </body>
-<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.0/build/highlight.min.js"></script>
+<script src="index.js"></script>
 </html>
