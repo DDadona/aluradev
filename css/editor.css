@@ -47,6 +47,8 @@
     border-radius: 8px;
     color: white;
     font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 18.46px;
     height: 260px;
     width: 45vw;
 }
@@ -79,7 +81,7 @@
     }
 
     .text_codigo {
-        width: 99%;
+        width: 98%;
     }
 
     .botao_visualizar {
